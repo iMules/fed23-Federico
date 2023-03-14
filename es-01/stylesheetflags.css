@@ -1,36 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 
-.flagcontainer{
+.row{
     display: flex;
     flex-direction: row;
-    height: 100%;
-    width: 100%;
-    max-height: 150px;
-    max-width: 300px;
-    border: 10px black;
+    width: auto;
 }
 
-.flag1_color1{
-    background-color: green;
-    width: 33.3%;
-    height: 100%;
-}
-
-.flag1_color2{
-    background-color: white;
-    width:33.3%;
-    height: 100%;
-}
-
-.innerlogo{
-    width: 30%;
-    height: 30%;
-}
-
-.flag1_color3{
-    background-color: red;
-    width: 33.3%;
-    height: 100%;
+.col{
+    display: flex;
+    flex-direction: column;
+    padding-right: 16px;
 }
 
 .textcontainer{
@@ -47,4 +26,44 @@ h1{
     font-size: 24px;
     font-weight: 400;
     position: center;
+}
+
+
+.flagcontainer{
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    width: 180px;
+}
+
+.flag1_color1_easy{
+    background-color: green;
+    width:33.3%;
+    height: 100%;
+}
+
+.flag1_color2_easy{
+    background-color: white;
+    width:33.3%;
+    height: 100%;
+}
+
+.flag1_color3_easy{
+    background-color: red;
+    width: 33.3%;
+    height: 100%;
+}
+
+.flag2_color1_medium{
+    background-color: white;
+    height: 120px;
+    width: 180px;
+}
+
+.innerlogo_1{
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    border-radius: 50%;
+    
 }
