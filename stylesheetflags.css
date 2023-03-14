@@ -1,0 +1,22 @@
+flagcontainer{
+    display: flex;
+    flex-direction: row;
+    height: 10rem;
+    width: 20rem;
+    border: 0.2 rem black;
+}
+
+.flag1_color1{
+    background-color: green;
+    width: auto;
+}
+
+.flag1_color2{
+    background-color: white;
+    width:auto;
+}
+
+.flag1_color3{
+    background-color: red;
+    width: auto;
+}
