@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 
 .flagcontainer{
     display: flex;
@@ -43,7 +43,7 @@ h1{
     display: flex;
     text-align: center;
     width: 100%;
-    font-family: 'Sono';
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 24px;
     font-weight: 400;
     position: center;
