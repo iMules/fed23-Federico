@@ -74,7 +74,22 @@ h1{
 }
 
 .flag3_color1_hard{
-    background-color: blue;
+    background-color: white;
     height: 120px;
     width: 180px;
+}
+
+.innerlogo_2{
+    margin-top: 50px;
+    width: auto;
+    height: 20%;
+    background-color: red;
+}
+
+.innerlogo_3{
+    position
+    margin-left: 80px;
+    width: 20px;
+    height: 120px;
+    background-color: red;
 }
