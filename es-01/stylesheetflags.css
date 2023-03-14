@@ -34,6 +34,7 @@ h1{
     flex-direction: row;
     height: 120px;
     width: 180px;
+    border: 1px solid black;
 }
 
 .flag1_color1_easy{
@@ -58,6 +59,10 @@ h1{
     background-color: white;
     height: 120px;
     width: 180px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .innerlogo_1{
@@ -66,4 +71,10 @@ h1{
     background-color: red;
     border-radius: 50%;
     
+}
+
+.flag3_color1_hard{
+    background-color: blue;
+    height: 120px;
+    width: 180px;
 }
