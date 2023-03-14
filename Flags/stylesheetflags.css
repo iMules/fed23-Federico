@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
 .flagcontainer{
     display: flex;
     flex-direction: row;
     height: 100%;
     width: 100%;
+    max-height: 150px;
+    max-width: 300px;
     border: 10px black;
 }
 
@@ -27,4 +31,20 @@
     background-color: red;
     width: 33.3%;
     height: 100%;
+}
+
+.textcontainer{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    font-family: 'Sono';
+    font-size: 24px;
+    font-weight: 400;
+    position: center;
 }
