@@ -1,0 +1,36 @@
+<html>
+    
+    <head>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+        <script src="principale.js"></script>
+
+        
+    </head>
+    
+    <body>
+        <div class="button-group filter-button-group">
+          <button data-filter="*">show all</button>
+          <button data-filter=".metal">metal</button>
+          <button data-filter=".transition">transition</button>
+          <button data-filter=".alkali, .alkaline-earth">alkali & alkaline-earth</button>
+          <button data-filter=":not(.transition)">not transition</button>
+          <button data-filter=".metal:not(.transition)">metal but not transition</button>
+        </div>
+        
+        <div class="grid">
+            <div class="element-item transition metal" data-category="metal">Banana </div>
+            <div class="element-item post-transition metal">Pera</div>
+            <div class="element-item alkali metal">Domenico</div>
+            <div class="element-item transition metal">AAAAAAAAAAAH</div>
+            <div class="element-item lanthanoid metal inner-transition">BBBBBBBBB</div>
+            <div class="element-item halogen nonmetal">CCCCCCC</div>
+            <div class="element-item alkaline-earth metal">DDDDDDDD</div>
+              ...
+        </div>
+        
+        <div class="grid" data-isotope='{ "itemSelector": ".grid-item", "layoutMode": "fitRows" }'></div>
+        
+    </body>
+    
+</html>
